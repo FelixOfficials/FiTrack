@@ -1,0 +1,18 @@
+// use prisma-next
+
+model User {
+  id          Int      @id @default(autoincrement())
+  email       String   @unique
+  username    String?
+  password    String?
+  name        String?
+  createdAt   TimestamptzString @default(now())
+  updatedAt   temporal.updatedAtString()
+}
+
+model Exercise {
+  id          Int      @id @default(autoincrement())
+  name        String
+  muscleGroup String?
+  equipment   String?
+}
