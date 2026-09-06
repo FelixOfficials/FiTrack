@@ -1,0 +1,24 @@
+{
+  "name": "fitrack",
+  "version": "1.0.0",
+  "description": "Fitness Tracker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixOfficials/FiTrack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/FelixOfficials/FiTrack/issues"
+  },
+  "homepage": "https://github.com/FelixOfficials/FiTrack#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
